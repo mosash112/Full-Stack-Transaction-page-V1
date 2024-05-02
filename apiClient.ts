@@ -1,4 +1,4 @@
-import { DonationType } from '../backend/src/shared/types'
+import { DonationType } from './pages/shared/types'
 
 export const fetchDonation = async (id: number): Promise<DonationType> => {
     const res = await fetch('http://localhost:3001/api/donations', {

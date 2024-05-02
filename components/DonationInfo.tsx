@@ -1,4 +1,4 @@
-import { DonationType } from "../../backend/src/shared/types"
+import { DonationType } from "../pages/shared/types"
 
 type Props = {
     donation: DonationType
